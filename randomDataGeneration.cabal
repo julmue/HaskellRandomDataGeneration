@@ -1,4 +1,4 @@
-name:                randomValues
+name:                randomDataGeneration
 version:             0.1.0.0
 synopsis:            Random Value Generation
 description:         Please see README.md
@@ -6,7 +6,7 @@ homepage:            http://github.com/githubuser/randomValues#readme
 author:              Julian Müller
 maintainer:          jul.mue@hotmail.com
 copyright:           2015 Julian Müller
-category:            Science
+category:            Other
 build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
@@ -16,7 +16,7 @@ executable randomValues-exe
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , randomValues
+                     , randomDataGeneration
                      , random >= 1.1
                      , MonadRandom >= 4.1
                      , QuickCheck >= 2.8.1
@@ -24,4 +24,4 @@ executable randomValues-exe
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/randomValues
+  location: https://github.com/julmue/RandomDataGeneration

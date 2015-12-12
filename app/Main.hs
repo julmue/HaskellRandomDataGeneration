@@ -40,7 +40,7 @@ randTree depth
     randDepth = getRandomR (1, pred depth)
 
 -- Now random tree awesomness in ghci:
--- genTree 'a' 'c' 5
+-- radnTree 5
 -- > <a random tree>
 
 -- -----------------------------------------------------------------------------
